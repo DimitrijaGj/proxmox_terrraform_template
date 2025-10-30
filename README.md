@@ -10,5 +10,5 @@ It can be used to create three sizes of machines:
 ## Usage
 
 ```
-terraform apply -var="vm_type='small'"
+terraform apply -var="vm_type=small"
 ```
