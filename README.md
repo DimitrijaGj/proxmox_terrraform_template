@@ -8,6 +8,7 @@ It can be used to create three sizes of machines:
 - large
 
 ## Usage
-’’’
+
+```
 terraform apply -var="vm_type"
-’’’
+```
