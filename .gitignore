@@ -1,2 +1,5 @@
 secrets.auto.tfvars
-
+.gitignore
+terraform.tfstate
+terraform.tfstate.backup
+/.terraform
