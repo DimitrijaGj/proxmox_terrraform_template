@@ -17,7 +17,7 @@ variable "vm_name" {
 }
 
 variable "vm_id" {
-  description = "Man ual add -var 'vm_id = int'. If not the next free ID will be assigned!!!"
+  description = "Manual add -var 'vm_id = int'. If not the next free ID will be assigned!!!"
   type = number
   nullable = true
   default = null

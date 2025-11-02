@@ -10,7 +10,7 @@ terraform {
 provider "proxmox" {
   endpoint = var.proxmox_endpoint
   api_token = var.proxmox_api_token
-  insecure = true  # if using self-signed certificates
+  insecure = true
 }
 
 locals {
@@ -41,7 +41,7 @@ locals {
   choice = local.types[var.vm_type]
 }
 
-resource "proxmox_virtual_environment_vm" "foo-machine" {
+resource "proxmox_virtual_environment_vm" "template-machine" {
   node_name = "gjoshevi"
   vm_id     = var.vm_id
   name      = var.vm_name
